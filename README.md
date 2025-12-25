@@ -1,18 +1,18 @@
-# Card-Stocker-Pro
+# Card_Stocker_Pro
 
-A high-performance, AI-powered trading card and sports card recognition engine.
+This repository is organized into two main parts:
 
-Restart plan
-- Backup current code: create a `backup-before-restart` branch.
-- Create a clean `start-over` branch with this scaffold.
-- Implement MVP features first:
-  1. Webcam capture & simple local detection
-  2. Store detection metadata and thumbnails
-  3. Basic web dashboard to view detections
+-   `/mobile`: This directory contains the Expo-based mobile application.
+-   `/web`: This directory contains the web application.
 
-How to get started (local)
-1. Install Docker & Docker Compose
-2. Copy `.env.example` to `.env` and adjust values
-3. Run: `docker compose up --build`
-4. Backend: http://localhost:8000
-5. Frontend: http://localhost:3000
+## Getting Started
+
+To get started with the mobile app, navigate to the `/mobile` directory and run:
+
+```
+npm install
+npm start
+```
+
+To get started with the web app, navigate to the `/web` directory and follow the instructions in its README.
+
